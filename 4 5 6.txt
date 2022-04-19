@@ -1,0 +1,64 @@
+201 , 'Alfred         '      , 'Hitchcock' 
+    202 , 'Jack            '     , 'Clayton'
+    203 , 'David            '    , 'Lean'
+    204 , 'Michael           '   , 'Cimino'
+    205 , 'Milos              '  , 'Forman'
+    206 , 'Ridley              ' , 'Scott'
+    207 , 'Stanley              ', 'Kubrick'
+    208 , 'Bryan       '         , 'Singer'
+    209 , 'Roman        '        , 'Polanski'
+    210 , 'Paul          '       , 'Thomas Anderson'
+    211 , 'Woody          '      , 'Allen'
+    212 , 'Hayao           '     , 'Miyazaki'
+    213 , 'Frank            '    , 'Darabont'
+    214 , 'Sam               '   , 'Mendes'
+    215 , 'James              '  , 'Cameron'
+    216 , 'Gus                 ' , 'Van Sant'
+    217 , 'John                 ', 'Boorman'
+    218 , 'Danny   '             , 'Boyle'
+    219 , 'Christopher'          , 'Nolan'
+    220 , 'Richard     '         , 'Kelly'
+    221 , 'Kevin        '        , 'Spacey'
+    222 , 'Andrei        '       , 'Tarkovsky'
+    223 ,' Peter          '      , 'Jackso'
+
+dir_id | mov_id
+--------+--------
+    201 ,  901
+    202 ,  902
+    203 ,  903
+    204 ,  904
+    205 ,  905
+    206 ,  906
+    207 ,  907
+    208 ,  908
+    209 ,  909
+    210 ,  910
+    211 ,  911
+    212 ,   912
+    213 ,   913
+    214 ,  914
+    215 ,  915
+    216 ,  916
+    217 ,   917
+    218 ,   918
+    219 ,    919
+    220 ,    920
+    218 ,    921
+    215 ,    922
+    221 ,    923
+gen_id |      gen_title
+--------+----------------------
+   1001 ,'Action'
+   1002 ,'Aventure'
+   1003 , 'Animation'
+   1004 , 'Bography'
+   1005 , 'Comedy'
+   1006 ,'Crime'
+   1007 , 'Drama'
+   1008 , 'Horror'
+   1009 , 'Music'
+   1010 , 'Mystery'
+   1011 , 'Romance'
+   1012 , 'Thriller'
+   1013 , 'War'
