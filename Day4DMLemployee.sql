@@ -1,0 +1,15 @@
+select * from employees;
+select distinct job_id from employees;
+select sum(salary) from employees;
+select min(salary) from employees;
+select max(salary) from employees where job_id = 'IT_Prog';
+select avg(salary), count(employee_id) from employees where department_id = 90;
+select max(salary),min(salary),sum(salary),avg(salary) from employees;
+select count(employee_id),job_id from employees group by job_id;
+select max(salary) - min(salary) from employees;
+select manager_id, min(salary) from employees where manager_id is not null group by manager_id;
+select department_id, sum(salary) from employees group by department_id order by department_id;
+select avg(salary),job_id from employees where job_id <> 'IT_Prog' group by job_id;
+select sum(salary),avg(salary),max(salary),min(salary),job_id from employees where department_id=90 group by job_id;
+select job_id, max(salary),employee_id from employees where salary >= 4000 group by job_id;
+select avg(salary), department_id,count(employee_id) from employees group by department_id having count(employee_id) > 10;
